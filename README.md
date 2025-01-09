@@ -53,17 +53,20 @@ AUTO_READ_STATUS=yes
 AUTO_DOWNLOAD_STATUS=yes
 PM_PERMIT=no
 BOT_NAME=Zokou-MD
-BOT_MENU_LINKS=https://i.pinimg.com/736x/0a/70/6f/0a706f90d6a1fb39919aedfbb7fdd8d3.jpg
+BOT_MENU_LINKS=LUFFY
 PUBLIC_MODE=yes
+HEROKU=no
 OWNER_NAME=Djalega++
 NUMERO_OWNER=22891733300
 WARN_COUNT=3
 STARTING_BOT_MESSAGE=yes
 PRESENCE=1
 PM_CHATBOT=no
-SESSION_ID='zokk'
-ANTI_VIEW_ONCE="yes"
-ANTI_COMMAND_SPAM=no
+SESSION_ID=zokk
+ANTI_VIEW_ONCE="yes
+ANTI_COMMAND_SPAM=yes
+ANTI_DELETE_MESSAGE=yes
+AUTO_REACT_MESSAGE=no
 ```
 
 8. Click **Add env** to save, then edit as needed. Don’t forget to enter your session ID.
@@ -106,6 +109,11 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
+
+    - name: Install ffmpeg
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y ffmpeg
 
     - name: Install dependencies
       run: |
