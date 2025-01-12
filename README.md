@@ -20,7 +20,7 @@ Zokou is a multi-device bot designed to enhance your WhatsApp conversations with
 
 ## How to Get Zokou 🛠️
 
-1. Click on **[Fork](https://github.com/Luffy2ndAccount/Zokou-english-v/fork)** to copy the repo to your GitHub account. Don’t forget to add a star 🌟 to encourage the developers.
+1. Click on **[Fork](https://github.com/Luffy2ndAccount/zokou-english-v2/fork)** to copy the repo to your GitHub account. Don’t forget to add a star 🌟 to encourage the developers.
 
 2. Obtain a bot session: 
 
@@ -30,7 +30,7 @@ Zokou is a multi-device bot designed to enhance your WhatsApp conversations with
 3. Deploy Zokou
 - **Heroku Deployment:**
 1. If you don’t have a **Heroku** account, click [**here**](https://id.heroku.com/login) to create one.
-2. Click [**here**](https://dashboard.heroku.com/new?template=https://github.com/Luffy2ndAccount/Zokou-english-v) to deploy the bot on **Heroku**.
+2. Click [**here**](https://dashboard.heroku.com/new?template=https://github.com/Luffy2ndAccount/zokou-english-v2) to deploy the bot on **Heroku**.
 
 - **Koyeb Deployment:**
 1. If you don’t have a **Koyeb** account, click [**here**](https://app.koyeb.com/auth/signup) to create one.
